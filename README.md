@@ -54,6 +54,17 @@ dsh-digital-logic-skill/
 | `references/07-programmable-logic.md` | PAL/GAL/CPLD/FPGA 对比 | 可编程器件选型 |
 | `references/08-fsm-design.md` | Mealy/Moore、状态化简、三段式写法 | 状态机设计、序列检测 |
 
+## 快速下载
+
+| 方式 | 链接 |
+| :--- | :--- |
+| 仓库主页（浏览 / Star） | https://github.com/bupt-hlh/dsh-digital-logic-skill |
+| 直接下载 ZIP（main 分支） | https://github.com/bupt-hlh/dsh-digital-logic-skill/archive/refs/heads/main.zip |
+| 发布版（推荐，版本固定） | https://github.com/bupt-hlh/dsh-digital-logic-skill/releases/latest |
+| git 克隆 | `git clone https://github.com/bupt-hlh/dsh-digital-logic-skill.git` |
+
+> 解压后若目录名带版本号（如 `dsh-digital-logic-skill-1.0.0`），请先重命名为 `dsh-digital-logic-skill`，再放入技能目录。
+
 ## 安装
 
 ### DeepSeek Harness（DSH）
@@ -131,7 +142,7 @@ cp -r dsh-digital-logic-skill ~/.dsh/skills/
 
 A Markdown-only Agent Skill that turns an AI assistant into a digital-logic teaching assistant. It ships eight chapter references (number systems, Boolean algebra and K-maps, combinational and sequential logic, Verilog HDL, memories, programmable logic, and finite state machines) plus a `SKILL.md` that defines the tutoring behavior: step-by-step derivations, IEEE-style Verilog, and guided problem solving.
 
-**Install (DeepSeek Harness):** copy this folder into `~/.dsh/skills/` (user scope) or `<project>/.dsh/skills/` (project scope). Keep the folder name identical to the `name` field in `SKILL.md`.
+**Install (DeepSeek Harness):** copy this folder into `~/.dsh/skills/` (user scope) or `<project>/.dsh/skills/` (project scope). Keep the folder name identical to the `name` field in `SKILL.md`. Download the latest release: <https://github.com/bupt-hlh/dsh-digital-logic-skill/releases/latest>.
 
 **Use:** ask a digital-logic question, e.g. *"Simplify F(A,B,C,D)=Σm(0,1,2,3,6,7,8,9,11,14) with a Karnaugh map and explain each group."*
 

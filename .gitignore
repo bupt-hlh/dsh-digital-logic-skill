@@ -16,3 +16,6 @@ __pycache__/
 # Logs / temp
 *.log
 *.tmp
+
+# Local release artifacts
+dist/
