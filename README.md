@@ -68,7 +68,7 @@ dsh-digital-logic-skill/
 
 ```bash
 # 示例：用户级安装
-git clone https://github.com/<your-name>/dsh-digital-logic-skill.git
+git clone https://github.com/bupt-hlh/dsh-digital-logic-skill.git
 mkdir -p ~/.dsh/skills
 cp -r dsh-digital-logic-skill ~/.dsh/skills/
 ```
